@@ -39,6 +39,9 @@ h1 {
   max-width: 4em;
 }
 
+.card-title-container {
+}
+
 .card-carousel {
   --card-width: 80%;
   --card-max-width: 280px;
