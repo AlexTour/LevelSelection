@@ -35,6 +35,10 @@ h1 {
   background-color: #e30613;
 }
 
+.dali-logo-responsive {
+  max-width: 4em;
+}
+
 .card-carousel {
   --card-width: 80%;
   --card-max-width: 280px;
