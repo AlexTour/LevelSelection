@@ -50,7 +50,7 @@ h1 {
 .card-carousel {
   --card-width: 80%;
   --card-max-width: 280px;
-  --card-height: 350px;
+  --card-height: 300px;
   --carousel-min-width: 600px;
   z-index: 1;
   position: relative;
