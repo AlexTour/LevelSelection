@@ -40,9 +40,11 @@ h1 {
 }
 
 .card-title-container {
-  background: #e30613;
+  /*background: #e30613;*/
   width: -webkit-fill-available;
   padding: 10px;
+  position: relative;
+  bottom: 120;
 }
 
 .card-carousel {
@@ -159,9 +161,9 @@ h2 a {
 }
 
 .button {
-  background-color: #424242;
-  border: none;
-  color: white;
+  /*background-color: #424242;*/
+  border: 2px solid #424242;
+  color: black;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
