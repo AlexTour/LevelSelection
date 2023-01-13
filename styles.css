@@ -47,7 +47,7 @@ h1 {
   padding: 10px;
   position: relative;
   bottom: 60;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 
 .card-carousel {
