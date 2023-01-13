@@ -46,7 +46,8 @@ h1 {
   width: -webkit-fill-available;
   padding: 10px;
   position: relative;
-  bottom: 10;
+  bottom: 60;
+  text-transform: uppercase;
 }
 
 .card-carousel {
