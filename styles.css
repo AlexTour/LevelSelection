@@ -128,7 +128,7 @@ h1 {
   /*-webkit-box-shadow: inset 0px 0px 17px 0px rgba(0,0,0,0.3);
 -moz-box-shadow: inset 0px 0px 17px 0px rgba(0,0,0,0.3);
 box-shadow: inset 0px 0px 17px 0px rgba(0,0,0,0.3);*/
-  
+  top: -120px;
 }
 
 .image-container::after {
