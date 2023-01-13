@@ -6,7 +6,7 @@
 
 html {
   font-family: system-ui;
-  background-color: #e7e7e7;
+  background: linear-gradient(135deg, hsla(356, 95%, 46%, 1) 0%, hsla(49, 30%, 50%, 1) 100%);
 }
 
 .visuallyhidden {
@@ -33,7 +33,7 @@ h1 {
 }
 
 .logo-container {
-  background-color: #e30613;
+  /*background-color: #e30613;*/
 }
 
 .logo-responsive {
@@ -169,7 +169,7 @@ h2 a {
 .button {
   /*background-color: #424242;*/
   /*border: 2px solid #424242;*/
-  color: rgb(246, 246, 246);
+  color: rgb(235, 235, 235);
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
