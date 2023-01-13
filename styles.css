@@ -45,8 +45,8 @@ h1 {
   /*background: #e30613;*/
   width: -webkit-fill-available;
   padding: 10px;
-  position: relative;
-  bottom: 60;
+  position: fixed;
+  /*bottom: 60;*/
   /*text-transform: uppercase;*/
 }
 
