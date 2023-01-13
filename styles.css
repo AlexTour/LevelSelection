@@ -28,15 +28,16 @@ h1 {
   overflow: hidden;
   padding: 20px;
   margin-top: 2em;
-  background: rgba(0,0,0,.1)
+  /*background: rgba(0,0,0,.1);*/
 }
 
 .logo-container {
-  background-color: #e30613;
+  /*background-color: #e30613;*/
 }
 
 .logo-responsive {
   max-width: 4em;
+  border-radius: 0px 0px 12px 0px;
 }
 
 .card-title-container {
