@@ -44,7 +44,7 @@ h1 {
   width: -webkit-fill-available;
   padding: 10px;
   position: relative;
-  bottom: 120;
+  bottom: 10;
 }
 
 .card-carousel {
@@ -124,7 +124,6 @@ h1 {
   height: 15em;
   position: relative;
   background-size: cover;
-  margin-bottom: 2em;
   /*border-radius: 100%;*/
   padding: 1em;
   /*-webkit-box-shadow: inset 0px 0px 17px 0px rgba(0,0,0,0.3);
