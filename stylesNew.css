@@ -1,0 +1,190 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+  font-family: system-ui;
+  /*background: linear-gradient(135deg, hsla(356, 95%, 46%, 1) 0%, hsla(49, 30%, 50%, 1) 100%);*/
+  background-color: #e30613;
+}
+
+
+.visuallyhidden {
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  opacity: 0; 
+}
+
+h1 {
+    color: rgb(235, 235, 235);
+    text-align: center;
+    margin-top: 4em;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.room-description {
+  font-size: 12;
+  color: rgba(230, 230, 230, 0.8);
+  margin-top: 20;
+  padding: 0px 20px 20px 20px;
+}
+
+.container {
+    overflow: hidden;
+    padding: 40px 0px 20px 0px;
+    margin-top: 1em;
+    /* background: rgba(0,0,0,.1); */
+}
+
+.logo-container {
+    background-color: #e30613;
+}
+
+.logo-responsive {
+  max-width: 3em;
+  /*border-radius: 0px 0px 12px 0px;*/
+}
+
+.card-title-container {
+    /* background: #e30613; */
+    width: -webkit-fill-available;
+    padding: 10px;
+    position: fixed;
+    /* bottom: 60; */
+    /* text-transform: uppercase; */
+}
+
+.card-carousel {
+  --card-width: 80%;
+  --card-max-width: 280px;
+  --card-height: 300px;
+  --carousel-min-width: 600px;
+  z-index: 1;
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  height: var(--card-height);
+  min-width: var(--carousel-min-width);
+  transition: filter .3s ease;
+}
+
+@media screen and (max-width: 640px) {
+  .card-carousel {
+    margin-left: calc((100vw - var(--carousel-min-width) - 0px) / 2)
+  }
+}
+
+.card-carousel.smooth-return {
+  transition: all .2s ease;
+}
+
+.card-carousel .card {
+    background: #e6e6e6;
+    width: var(--card-width);
+    max-width: var(--card-max-width);
+    text-align: center;
+    padding: 1em;
+    min-width: 250px;
+    height: var(--card-height);
+    position: absolute;
+    margin: 0 auto;
+    /* color: rgba(240, 239, 239, 1); */
+    transition: inherit;
+    border-radius: 1em;
+    filter: brightness(.7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #424242;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    /*backdrop-filter: blur(5px);*/
+    /*-webkit-backdrop-filter: blur(15px);*/
+}
+
+.card.highlight {
+    filter: brightness(1);
+}
+
+
+.card:nth-of-type(1) .image-container {
+    background-image: url(./Assets/poster.png);
+}
+ 
+.card:nth-of-type(2) .image-container {
+  background-image: url(./Assets/poster.png)
+}
+
+.card:nth-of-type(3) .image-container {
+  background-image: url(./Assets/poster.png)
+}
+.card:nth-of-type(4) .image-container {
+  background-image: url(./Assets/poster.png)
+}
+.card:nth-of-type(5) .image-container {
+  background-image: url(./Assets/poster.png)
+}
+
+
+
+.image-container {
+  width: 15em;
+  height: 15em;
+  position: absolute;
+  background-size: cover;
+  /*border-radius: 100%;*/
+  padding: 1em;
+  /*-webkit-box-shadow: inset 0px 0px 17px 0px rgba(0,0,0,0.3);
+-moz-box-shadow: inset 0px 0px 17px 0px rgba(0,0,0,0.3);
+box-shadow: inset 0px 0px 17px 0px rgba(0,0,0,0.3);*/
+  top: -120px;
+}
+
+.image-container::after {
+  /*content: "";*/
+  display: block;
+  width: 120%;
+  height: 120%;
+  border: solid 3px rgba(0,0,0,.1);
+  border-radius: 100%;
+  position: absolute;
+  top: calc(-10% - 3px);
+  left: calc(-10% - 3px);
+}
+
+h2 {
+  padding: 1em;
+  margin-top: 1em;
+  background: rgba(0,0,0,.3);
+  text-align: center;
+  color: white;
+  border-radius: .2em;
+  display: inline-block;
+  transform: translateX(calc((100vw - 100%) / 2))
+}
+
+h2 a {
+  color: #f5b916
+}
+
+.button {
+    background-color: #e30813;
+    /* border: 2px solid #424242; */
+    color: rgb(235, 235, 235);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 2em;
+    /* background: linear-gradient(135deg, hsla(356, 95%, 46%, 1) 0%, hsla(49, 30%, 50%, 1) 100%); */
+    box-shadow: 0px 3px 2px 0px rgba(0,0,0,0.3);
+    position: fixed;
+    bottom: 20px;
+}
