@@ -17,11 +17,12 @@ html {
 }
 
 h1 {
-  color: rgb(235, 235, 235);
-  text-align: center;
-  margin-top: 1em;
-  text-transform: uppercase;
-  font-weight: 300;
+    color: rgb(235, 235, 235);
+    text-align: center;
+    margin-top: 2em;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 18;
 }
 
 .room-description {
