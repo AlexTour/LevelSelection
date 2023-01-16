@@ -7,7 +7,7 @@
 html {
   font-family: system-ui;
   /*background: linear-gradient(135deg, hsla(356, 95%, 46%, 1) 0%, hsla(49, 30%, 50%, 1) 100%);*/
-  background-color: #424242;
+  background-color: #e7e7e7;
 }
 
 
@@ -25,13 +25,15 @@ h1 {
     text-transform: uppercase;
     font-weight: 500;
     font-size: 18;
+    visibility: hidden;
 }
 
 .room-description {
-  font-size: 12;
+  font-size: 14;
   color: #424242;
   margin-top: 20;
   padding: 0px 20px 20px 20px;
+  text-align: -webkit-match-parent;
 }
 
 .container {
@@ -53,7 +55,7 @@ h1 {
 .card-title-container {
     /* background: #e30613; */
     width: -webkit-fill-available;
-    padding: 10px;
+    padding: 0px 10px 30px 10px;
     position: fixed;
     /* bottom: 60; */
     /* text-transform: uppercase; */
@@ -84,7 +86,7 @@ h1 {
 }
 
 .card-carousel .card {
-    background: #e7e7e7;
+    background: #ffffff;
     width: var(--card-width);
     max-width: var(--card-max-width);
     text-align: center;
@@ -95,7 +97,7 @@ h1 {
     margin: 0 auto;
     /* color: rgba(240, 239, 239, 1); */
     transition: inherit;
-    border-radius: 1em;
+    /*border-radius: 1em;*/
     filter: brightness(.7);
     display: flex;
     flex-direction: column;
@@ -182,7 +184,7 @@ h2 a {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    border-radius: 2em;
+    border-radius: 6px;
     /* background: linear-gradient(135deg, hsla(356, 95%, 46%, 1) 0%, hsla(49, 30%, 50%, 1) 100%); */
     box-shadow: 0px 3px 2px 0px rgba(0,0,0,0.3);
     position: fixed;
