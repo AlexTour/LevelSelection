@@ -33,8 +33,8 @@ h1 {
 }
 
 .container {
-  /*overflow: hidden;*/
-  padding: 40px 0px 20px 0px;
+  overflow: hidden;
+  padding: 70px 0px 20px 0px;
   margin-top: 2em;
   /*background: rgba(0,0,0,.1);*/
 }
