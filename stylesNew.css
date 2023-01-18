@@ -28,6 +28,11 @@ h1 {
     visibility: hidden;
 }
 
+.room-title {
+    font-size: 14px;
+    font-weight: bold;
+}
+
 .room-description {
   font-size: 14;
   color: #424242;
