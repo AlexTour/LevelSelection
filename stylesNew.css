@@ -36,8 +36,8 @@ h1 {
 .room-description {
   font-size: 14;
   color: #424242;
-  margin-top: 20;
-  padding: 0px 20px 20px 20px;
+  margin-top: 10;
+  padding: 0px 10px 0px 10px;
   text-align: -webkit-match-parent;
   line-height: 1.33rem;
 }
@@ -61,7 +61,7 @@ h1 {
 .card-title-container {
     /* background: #e30613; */
     width: -webkit-fill-available;
-    padding: 0px 10px 30px 10px;
+    padding: 0px 10px 0px 10px;
     position: fixed;
     /* bottom: 60; */
     /* text-transform: uppercase; */
