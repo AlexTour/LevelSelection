@@ -134,7 +134,7 @@ h1 {
   background-image: url(../Assets/poster.png)
 }
 .card:nth-of-type(5) .image-container {
-  background-image: url(../Assets/poster.png)
+  /*background-image: url(../Assets/poster.png)*/
 }
 
 
