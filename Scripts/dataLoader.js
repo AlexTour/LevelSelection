@@ -14,4 +14,4 @@ document.getElementById('room04-description').textContent = "Lorem ipsum dolor s
 
 document.getElementById('room05-title').textContent = "OBERGESCHOSS (3/3)";
 document.getElementById('room05-description').textContent = "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis nat";
-document.getElementById("image05-container").style.backgroundImage = "url('../Assets/poster.png')"; 
+document.getElementById("image05-container").style.backgroundImage = "url('./Assets/poster.png')"; 
