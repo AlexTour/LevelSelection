@@ -1,3 +1,4 @@
+document.getElementById('logo').src = "Assets/dali-logo.png";
 
 document.getElementById('room01-title').textContent = "ERDGESCHOSS (1/2)";
 document.getElementById('room01-description').textContent = "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis nat";
